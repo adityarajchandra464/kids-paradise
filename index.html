@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Paradise Preparatory School</title>
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <meta name="description" content="Nurturing Young Minds, Building Bright Futures. A Safe & Joyful Learning Space for Your Child from Nursery to 8th Grade.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sticky Navbar -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <img src="assets/logo.png" alt="Kids Paradise Logo" class="logo-img">
+                <span class="logo-text">Kids Paradise</span>
+            </a>
+            
+            <button class="mobile-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#programs">Programs</a>
+                <a href="teachers.html">Teachers</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#admissions">Admissions</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions" style="flex-direction: column; align-items: flex-end; gap: 5px;">
+                <a href="tel:+919837249009" class="contact-number">
+                    <i class="fas fa-phone"></i> +91 98372 49009
+                </a>
+                <a href="tel:+919917076740" class="contact-number">
+                    <i class="fas fa-phone"></i> +91 99170 76740
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Floating Bubbles -->
+        <div class="bubbles-container">
+            <div class="bubble bubble-1"></div>
+            <div class="bubble bubble-2"></div>
+            <div class="bubble bubble-3"></div>
+            <div class="bubble bubble-4"></div>
+            <div class="bubble bubble-5"></div>
+            <div class="bubble bubble-6"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="label">Welcome to</span>
+                <h1 class="hero-title">Kids Paradise</h1>
+                <h2 class="hero-subtitle">Preparatory School</h2>
+                <div class="badge">Nurturing Young Minds, Building Bright Futures <i class="fas fa-star"></i></div>
+                <p class="hero-desc">A Safe & Joyful Learning Space for Your Child</p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-gradient open-enquiry-modal-btn">Enroll Now</button>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="assets/hero_child_studying.png" alt="Child studying happily" class="hero-image">
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+            </div>
+        </div>
+        
+        <!-- Cloud Divider Bottom -->
+        <div class="cloud-divider">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,64L48,80C96,96,192,128,288,122.7C384,117,480,75,576,64C672,53,768,75,864,85.3C960,96,1056,96,1152,80C1248,64,1344,32,1392,16L1440,0L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z" fill="#E2EBF5"></path>
+            </svg>
+        </div>
+        <!-- Rainbow Accent -->
+        <div class="rainbow-accent"><i class="fas fa-rainbow"></i></div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="intro-video" class="intro-video">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 30px;">
+                <span class="badge" style="background-color: var(--pastel-pink); color: var(--accent-pink);">School Tour</span>
+                <h2 class="section-title" style="margin-bottom: 0;">Watch Our Story</h2>
+            </div>
+            <div class="video-wrapper">
+                <video controls preload="metadata">
+                    <source src="assets/intro-video.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="wave-divider top">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,32L48,48C96,64,192,96,288,106.7C384,117,480,107,576,85.3C672,64,768,32,864,26.7C960,21,1056,43,1152,58.7C1248,75,1344,85,1392,90.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z" fill="#E2EBF5"></path>
+            </svg>
+        </div>
+        <div class="container relative z-10">
+            <div class="about-grid">
+                <div class="about-image-col">
+                    <img src="assets/about_teacher_students.png" alt="Teacher and students activity" class="about-img">
+                    <div class="about-badge">
+                        <span class="number">15+</span>
+                        <span class="text">Years of<br>Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content-col">
+                    <h2 class="section-title">About Kids Paradise</h2>
+                    <p class="about-desc">Our school is an educational institution where students go to learn academic subjects, develop skills, and build their overall personality under the guidance of teachers. It provides a structured environment for gaining knowledge in areas like mathematics, science, languages, and social studies.</p>
+                    <p class="about-desc">Our school also play an important role in shaping a child’s values, discipline, and social behavior. Along with studies, they offer activities such as sports, arts, and cultural programs that help in the physical and mental development of students.</p>
+                    <p class="about-desc">Overall, our school is a place that prepares individuals for future life by promoting learning, creativity, and good character.</p>
+                    
+
+                </div>
+            </div>
+
+            <!-- Directors Message -->
+            <div class="directors-section">
+                <h2 class="section-title text-center" style="margin-top: 60px; margin-bottom: 40px;">Message from the Chairman & Principal</h2>
+                <div class="directors-container">
+                    <div class="director-card">
+                        <div class="director-img-wrapper">
+                            <img src="assets/director_male.jpeg" alt="Mr. Rajkumar Gaba" class="director-img">
+                        </div>
+                        <h3 class="director-name">Mr. Rajkumar Gaba</h3>
+                        <p class="director-role">Chairman</p>
+                    </div>
+                    <div class="director-card">
+                        <div class="director-img-wrapper">
+                            <img src="assets/director_female.jpeg" alt="Mrs. Urvashi Gaba" class="director-img">
+                        </div>
+                        <h3 class="director-name">Mrs. Urvashi Gaba</h3>
+                        <p class="director-role">Principal</p>
+                    </div>
+                </div>
+                <div class="directors-message">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p>Welcome to Kids Paradise Preparatory School. Our mission is to provide a nurturing, safe, and inspiring environment where every child can discover their full potential. We believe in a holistic approach to education that balances academic excellence with creativity, character building, and emotional growth. Together with our dedicated staff, we are committed to shaping the bright minds of tomorrow and ensuring a joyful learning journey for your child.</p>
+                </div>
+            </div>
+        </div>
+        <div class="wave-divider bottom">
+             <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,64L48,80C96,96,192,128,288,122.7C384,117,480,75,576,64C672,53,768,75,864,85.3C960,96,1056,96,1152,80C1248,64,1344,32,1392,16L1440,0L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z" fill="#E2EBF5"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="why-us">
+        <div class="container">
+            <h2 class="section-title text-center">Why Choose Us?</h2>
+            
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <div class="icon-wrapper bg-blue"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Safe & Secure Campus</h3>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper bg-green"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h3>Experienced Teachers</h3>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper bg-yellow"><i class="fas fa-users"></i></div>
+                    <h3>Small Class Sizes</h3>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper bg-pink"><i class="fas fa-puzzle-piece"></i></div>
+                    <h3>Activity-Based Learning</h3>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper bg-orange"><i class="fas fa-hand-sparkles"></i></div>
+                    <h3>Hygienic Environment</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="wave-divider top">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,32L48,48C96,64,192,96,288,106.7C384,117,480,107,576,85.3C672,64,768,32,864,26.7C960,21,1056,43,1152,58.7C1248,75,1344,85,1392,90.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z" fill="#E2EBF5"></path>
+            </svg>
+        </div>
+        <div class="container relative z-10">
+            <h2 class="section-title text-center">Our Programs</h2>
+            
+            <div class="program-grid">
+                <div class="program-card pastel-blue">
+                    <i class="fas fa-baby program-icon"></i>
+                    <h3>Playgroup</h3>
+                    <p class="age-range">2–3 Years</p>
+                </div>
+                <div class="program-card pastel-green">
+                    <i class="fas fa-cubes program-icon"></i>
+                    <h3>Nursery</h3>
+                    <p class="age-range">3–4 Years</p>
+                </div>
+                <div class="program-card pastel-yellow">
+                    <i class="fas fa-pencil-alt program-icon"></i>
+                    <h3>LKG</h3>
+                    <p class="age-range">4–5 Years</p>
+                </div>
+                <div class="program-card pastel-pink">
+                    <i class="fas fa-book program-icon"></i>
+                    <h3>UKG</h3>
+                    <p class="age-range">5–6 Years</p>
+                </div>
+                <div class="program-card pastel-orange">
+                    <i class="fas fa-graduation-cap program-icon"></i>
+                    <h3>Primary</h3>
+                    <p class="age-range">1st–5th Grade</p>
+                </div>
+                <div class="program-card pastel-purple">
+                    <i class="fas fa-microscope program-icon"></i>
+                    <h3>Middle School</h3>
+                    <p class="age-range">6th–8th Grade</p>
+                </div>
+            </div>
+        </div>
+        <div class="wave-divider bottom">
+             <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,64L48,80C96,96,192,128,288,122.7C384,117,480,75,576,64C672,53,768,75,864,85.3C960,96,1056,96,1152,80C1248,64,1344,32,1392,16L1440,0L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z" fill="#E2EBF5"></path>
+            </svg>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title text-center">Moments of Happiness</h2>
+            
+            <div class="slideshow-container">
+                <button class="slide-btn prev" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
+                <div class="slides-wrapper">
+                    <div class="gallery-item">
+                        <img src="assets/gallery/photo_10.jpeg" alt="Kids Paradise Moment 10">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/photo_11.jpeg" alt="Kids Paradise Moment 11">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/photo_12.jpeg" alt="Kids Paradise Moment 12">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/photo_13.jpeg" alt="Kids Paradise Moment 13">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/photo_14.jpeg" alt="Kids Paradise Moment 14">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/photo_15.jpeg" alt="Kids Paradise Moment 15">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/photo_16.jpeg" alt="Kids Paradise Moment 16">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/photo_17.jpeg" alt="Kids Paradise Moment 17">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/photo_18.jpeg" alt="Kids Paradise Moment 18">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/photo_1.jpeg" alt="Kids Paradise Moment 1">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/photo_2.jpeg" alt="Kids Paradise Moment 2">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/photo_3.jpeg" alt="Kids Paradise Moment 3">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+                <button class="slide-btn next" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
+            </div>
+
+            
+            <div class="text-center mt-4">
+                <a href="gallery.html" class="btn btn-outline">View More Photos &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="wave-divider top">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,32L48,48C96,64,192,96,288,106.7C384,117,480,107,576,85.3C672,64,768,32,864,26.7C960,21,1056,43,1152,58.7C1248,75,1344,85,1392,90.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z" fill="#E2EBF5"></path>
+            </svg>
+        </div>
+        <div class="container relative z-10">
+            <h2 class="section-title text-center">What Parents Say</h2>
+            
+            <div class="testimonial-grid video-reviews">
+                <div class="video-review-card">
+                    <video controls preload="auto" playsinline>
+                        <source src="assets/reviews/review_1.mp4#t=0.001" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                </div>
+                <div class="video-review-card">
+                    <video controls preload="auto" playsinline>
+                        <source src="assets/reviews/review_2.mp4#t=0.001" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                </div>
+                <div class="video-review-card">
+                    <video controls preload="auto" playsinline>
+                        <source src="assets/reviews/review_3.mp4#t=0.001" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Admissions CTA Section -->
+    <section id="admissions" class="admissions-cta">
+        <div class="container">
+            <div class="cta-content">
+                <i class="fas fa-paper-plane floating-icon icon-1"></i>
+                <i class="fas fa-star floating-icon icon-2"></i>
+                
+                <h2>Admissions Open 2026–27</h2>
+                <p>Limited Seats Available – Enroll Your Child Today!</p>
+                <button id="open-enquiry-modal" class="btn btn-enroll open-enquiry-modal-btn">Enroll Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Contact Info -->
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="assets/logo.png" alt="Kids Paradise Logo" class="footer-logo-img">
+                        <span class="footer-logo-text">Kids Paradise</span>
+                    </div>
+                    <p class="footer-desc">Nurturing young minds in a safe, joyful, and creative environment.</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-phone"></i> <a href="tel:+919837249009">+91 98372 49009</a></p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+919917076740">+91 99170 76740</a></p>
+                        <p><i class="fas fa-envelope"></i> kpschool.rdr@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> <a href="https://maps.app.goo.gl/X8XjMJW9m23ySFeAA" target="_blank">Janta School Rd, Jagatpura, Uttarakhand 263153</a></p>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Our Programs</a></li>
+                        <li><a href="teachers.html">Our Teachers</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Enquiry Form -->
+                <div class="footer-col">
+                    <h3 class="footer-heading">Enquiry Form</h3>
+                    <form id="whatsapp-form" class="enquiry-form">
+                        <input type="text" id="wa-name" placeholder="Your Name" required>
+                        <input type="tel" id="wa-phone" placeholder="Phone Number" required>
+                        <textarea id="wa-message" placeholder="Message" rows="3" required></textarea>
+                        <button type="submit" class="btn btn-submit"><i class="fab fa-whatsapp"></i> Send via WhatsApp</button>
+                    </form>
+                </div>
+                
+                <!-- Map -->
+                <div class="footer-col">
+                    <h3 class="footer-heading">Location</h3>
+                    <div class="map-container" style="position: relative;">
+                        <a href="https://maps.app.goo.gl/X8XjMJW9m23ySFeAA" target="_blank" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 10;" aria-label="Open location in Google Maps"></a>
+                        <!-- Placeholder map with image or iframe. Since it's a template, an iframe is good -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.064566373767!2d-122.3997235!3d37.7885065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807cacccab0b%3A0xc682ecf97bbdbbd4!2sSalesforce%20Park!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0; border-radius: 12px; pointer-events: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kids Paradise Preparatory School. All rights reserved.</p>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Icons -->
+    <div class="floating-actions">
+        <a href="https://maps.app.goo.gl/X8XjMJW9m23ySFeAA" class="floating-btn btn-maps" aria-label="Open location in Google Maps" target="_blank">
+            <i class="fas fa-map-marker-alt"></i>
+        </a>
+        <a href="https://www.instagram.com/kids_paradise_school_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="floating-btn btn-instagram" aria-label="Follow us on Instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/kidsparadise258/" class="floating-btn btn-facebook" aria-label="Follow us on Facebook" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://wa.me/918077167027" class="floating-btn btn-whatsapp" aria-label="Chat on WhatsApp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+
+    <!-- Image Zoom Modal -->
+    <div id="image-modal" class="modal-overlay">
+        <div class="modal-content image-modal-content">
+            <button class="modal-close" id="close-image-modal" aria-label="Close modal">&times;</button>
+            <img id="zoomed-image" src="" alt="Zoomed view" class="zoomed-image">
+        </div>
+    </div>
+
+    <!-- Admission Enquiry Modal -->
+    <div id="enquiry-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" id="close-enquiry-modal" aria-label="Close modal">&times;</button>
+            <h2 class="modal-title">Admission Enquiry</h2>
+            <form id="admission-form" class="admission-form">
+                <div class="form-group">
+                    <label for="parent-name">Parent's Name</label>
+                    <input type="text" id="parent-name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" id="phone-number" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="child-age">Child's Age</label>
+                    <input type="text" id="child-age" placeholder="Enter child's age" required>
+                </div>
+                <div class="form-group">
+                    <label for="class-applying">Class Applying For</label>
+                    <select id="class-applying" required>
+                        <option value="Play Group">Play Group</option>
+                        <option value="Nursery">Nursery</option>
+                        <option value="LKG">LKG</option>
+                        <option value="UKG">UKG</option>
+                        <optgroup label="Primary">
+                            <option value="1st">1st</option>
+                            <option value="2nd">2nd</option>
+                            <option value="3rd">3rd</option>
+                            <option value="4th">4th</option>
+                            <option value="5th">5th</option>
+                        </optgroup>
+                        <optgroup label="Middle School">
+                            <option value="6th">6th</option>
+                            <option value="7th">7th</option>
+                            <option value="8th">8th</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-submit-enquiry">Submit Enquiry</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- First Time Welcome Popup -->
+    <div id="welcome-popup" class="modal-overlay">
+        <div class="modal-content welcome-modal-content">
+            <button class="modal-close" id="close-welcome-popup" aria-label="Close modal">&times;</button>
+            <img src="assets/admission-popup.png" onerror="this.src='assets/admission-popup.png.png'" alt="Admission Open" class="popup-image">
+        </div>
+    </div>
+
+    <!-- Scripts -->
+
+    <script src="script.js"></script>
+</body>
+</html>
