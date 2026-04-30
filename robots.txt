@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.kidsparadiseschool.co.in/sitemap.xml
